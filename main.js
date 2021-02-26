@@ -1,7 +1,7 @@
 const NoFortnite = require('discord.js')
 const client = new NoFortnite.Client()
 
-client.on('ready' ready => {
+client.on('ready', ready => {
 
   client.guilds.cache.forEach(g => {
     console.log(`${g.name} is now protected from Fortnite Kids.`)
@@ -9,7 +9,7 @@ client.on('ready' ready => {
   console.log(`${client.user.username} is now Ready!`)
 });
 
-client.on('message' message => {
+client.on('message', message => {
   if(message.content.includes("fortnite")) {
     message.delete()
   } else if(message.content.includes("Fortnite")) {
