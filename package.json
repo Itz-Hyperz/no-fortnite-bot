@@ -1,0 +1,14 @@
+{
+  "name": "no-fortnite-bot-main",
+  "version": "1.0.0",
+  "description": "This is a Discord Bot that stops users from saying \"Fortnite\" or anything that relates to it.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hyperz#0001",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
